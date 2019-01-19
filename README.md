@@ -1,5 +1,5 @@
 # jd1
-my new project
+our new project
 
 Based on seed project `deep-south-software:spring-rest-seed`
 

@@ -6,15 +6,20 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
 class Jd1Controller {
-
-	@GetMapping("/hello/{name}")
+@GetMapping("/hello/{name}")
 	public String person(@PathVariable String name) {
-		return "Hello " + name + "!";
+                                         		return "Hello " + name + "!";
+		
+		
+		
+		
+		
+		
 	}
 
 	@GetMapping("/")
 	public String root() {
-		return "Hello, Delta Blues! Add /hello/there to the URL to get a friendly reply.";
+		return "Hello, John! Add /hello/there to the URL to get a friendly reply.";
 	}
 
 }
